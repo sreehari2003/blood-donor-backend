@@ -7,7 +7,7 @@ const appError = require("./utils/appError");
 const cors = require("cors");
 const bodyParser = require("body-parser");
 
-dotenv.config({ path: "./.env" });
+dotenv.config();
 
 const corsOptions = {
   origin: "*",
